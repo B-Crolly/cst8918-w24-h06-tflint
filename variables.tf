@@ -5,6 +5,7 @@ variable "labelPrefix" {
 }
 
 variable "region" {
+  type    = string
   default = "westus3"
 }
 
